@@ -12,7 +12,7 @@ jobs:
       - run: tar -czvf nasapicoftheday.build.tar.gz *
       - uses: docker://antonyurchenko/git-release:latest
         env:
-          GITHUB_TOKEN: ${{ secrets.SOSICRETMAYGOD }}
+          GITHUB_TOKEN: ${{ secrets.SOSICRETMAYGOD2 }}
           CHANGELOG_FILE: "none"
         with:
           args: nasapicoftheday.build.tar.gz
